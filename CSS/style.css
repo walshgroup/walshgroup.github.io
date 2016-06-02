@@ -1,0 +1,271 @@
+/*id #
+class .*/
+
+/*Text*/
+body{
+	font-family:"Tahoma", Geneva, sans-serif;
+}
+
+#white{
+	color: black;
+	text-decoration:none;
+}
+#white:hover{
+	color:#0096EF;
+}
+#dark{
+	color:white;
+	text-decoration:none;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+#dark:hover{
+	color:#0096EF;
+}
+#footer{
+	color:white;
+	text-decoration:none;
+}
+#footer:hover{
+	color:#0096EF;
+}
+#p01{
+		font-style: italic;
+	}
+/*navigation*/
+	nav{
+		border: 1px #404040 solid;
+		text-align:right;
+		color: white;
+		background-color:#404040;
+	}
+/*header*/
+	header{
+		height:120px;
+		background-color:white;
+	}
+	.navigation-bar{
+		width: 100%
+		height: 80px;
+		line-height: 110px;
+	}
+	.logo{
+		display: inline-block;
+		vertical-align:center;
+		width:80px;
+		height:100px;
+		margin-right:auto;
+		margin-top:10px;
+		margin-left:40px;
+	}
+	.navigation-bar > a{
+		display: inline-block;
+		margin-right:40px;
+		float:right;
+	}
+/*display_image*/
+
+/*	#placeholder{
+		width: 100%;
+	}*/
+
+.header{
+		color:white;
+		width:50%;
+		transform: translate(-50%, -50%);
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		padding: 20px;
+		resize:both;
+		overflow: auto;
+		text-align:center;
+		line-height:50px;
+	}
+
+	#display_image{
+		position: relative;
+		height: 500px;
+		background-image: url("../images/header_image1.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	h1{
+		font-size:40px;
+	}
+	h2{
+		text-decoration: underline;
+	}
+
+/*moto*/
+	#moto{
+		border: 1px #0096EF solid;
+		background-color:#0096EF;
+		text-align:center;
+		color: white;
+	}
+/*profile*/
+	#profile{
+		border: 1px #E3E5DF solid;
+		text-align:center;
+		background-color:#E3E5DF;
+	}
+
+	#h301{
+		color:#0096EF;
+	}
+
+	#profile_article{
+		border: 30px white solid;
+		background-color:white;
+		margin:3%;
+	}
+
+/*portfolio*/
+	#portfolio{	
+	text-align:center;
+	padding: auto
+	margin: 0px;
+	}
+													
+	li.portfolio_list{
+	display: inline;
+	}
+													
+	.float_center{
+	/*float: right;*/
+	background-color: white;
+	position: relative;
+	left: -50%;
+	text-align: left;	
+	}
+
+	.float_center> .child{
+	position: relative;
+	left: 50%;
+	}
+	
+	/*for sale*/
+	#for_sale{	
+	border: 6px #E3E5DF solid;
+	text-align:center;
+	background-color:#E3E5DF;
+	}
+	
+	/*house_and_land_packages*/
+	#for_sale{	
+	text-align:center;
+	padding: auto
+	margin: 0px;												
+	}
+
+	li.packageslist{
+	display: inline;
+	background-color: white;
+	}
+													
+	.floatcenter2{
+	position: relative;
+	left: -50%;
+	text-align: left;	
+	}
+
+	.floatcenter2> .child3{
+	position: relative;
+	left: 50%;
+	}
+
+	ul.child3 li{
+	text-align: left;
+	width: 260px;
+	display: inline-block;
+	margin: 10px auto;
+	padding: 10px;
+	vertical-align: top;
+	}
+
+
+
+	/*land_available*/
+	li.landlist{
+	display: inline;
+	background-color: white;
+	}
+													
+	.floatcenter3{
+	position: relative;
+	left: -50%;
+	text-align: left;	
+	}
+
+	.floatcenter3> .child4{
+	position: relative;
+	left: 50%;
+	}
+
+	ul.child4 li{
+	text-align: left;
+	width: 260px;
+	display: inline-block;
+	margin: 10px auto;
+	padding: 10px;
+	vertical-align: top;
+	}
+
+/*latest_news*/
+	#latestnews{	
+	text-align:center;
+	padding: auto
+	margin: 0px;												
+	}
+
+	li.latestnewslist{
+	display: inline;
+	}
+													
+	.floatcenter{
+	/*float: right;*/
+	background-color: white;
+	position: relative;
+	left: -50%;
+	text-align: left;	
+	}
+
+	.floatcenter> .child2{
+	position: relative;
+	left: 50%;
+	}
+
+	ul.child2 li{
+	text-align: left;
+	width: 260px;
+	display: inline-block;
+	margin: 10px auto;
+	padding: 10px;
+	vertical-align: top;
+	}
+
+/*footer*/
+	footer{
+	border: 1px #404040 solid;
+	background-color:#404040;		
+	}
+
+	.bluelogo{
+		display: inline-block;
+		vertical-align:center;
+/*		width:80px;
+		height:50px;*/
+/*		margin-right:auto;*/
+/*		margin-top:10px;*/
+		margin-left:70px;
+	}
+
+	ul.get_in_touch li{
+	text-align: left;
+	color: white;
+	width: 350px;
+	display: inline-block;
+	margin: auto;
+	padding: auto;
+	}

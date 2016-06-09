@@ -2,123 +2,206 @@
 class .*/
 
 /*Text*/
-body{
+	body{
 	font-family:"Tahoma", Geneva, sans-serif;
-}
+	}
 
-#white{
-	color: black;
+	#white{
+	color: #0096EF;
 	text-decoration:none;
-}
-#white:hover{
-	color:#0096EF;
-}
-#dark{
+	}
+
+	#white:hover{
+	color:#2DC964;
+	}
+
+	#dark{
 	color:white;
 	text-decoration:none;
 	margin-left: 20px;
 	margin-right: 10px;
-}
-#dark:hover{
+	}
+
+	#dark:hover{
 	color:#0096EF;
-}
-#footer{
-	color:white;
+	}
+
+	#footer{
+	color:#0096EF;
 	text-decoration:none;
-}
-#footer:hover{
-	color:#0096EF;
-}
-#p01{
+	}
+
+	#footer:hover{
+	color:#2DC964;
+	}
+
+	#p01{
 		font-style: italic;
 	}
-/*navigation*/
-	nav{
-		border: 1px #404040 solid;
-		text-align:right;
-		color: white;
-		background-color:#404040;
+
+	#back{
+	color: black;
+	text-decoration:none;
 	}
+
+	#back:hover{
+	color:#0096EF;
+	}
+
+/*navigation*/
+	#nav{
+	border: 1px #404040 solid;
+	text-align:right;
+	color: white;
+	background-color:#404040;
+	}
+
 /*header*/
 	header{
-		height:120px;
-		background-color:white;
+	background-color:white;	
 	}
-	.navigation-bar{
-		width: 100%
-		height: 80px;
-		line-height: 110px;
-	}
+
 	.logo{
-		display: inline-block;
-		vertical-align:center;
-		width:80px;
-		height:100px;
-		margin-right:auto;
-		margin-top:10px;
-		margin-left:40px;
+	display: inline-block;
+	height:100px;
 	}
-	.navigation-bar > a{
-		display: inline-block;
-		margin-right:40px;
-		float:right;
+
+	ul.menulist li{
+	text-align: right;
+	color: white;
+	display: inline-block;
+	margin: 15px;
+	vertical-align: middle;
 	}
+
+	@media screen and (min-width: 0px) and (max-width: 770px){
+
+	header ul.menulist li{
+	display: block;
+	width: 50%;
+	text-align: left;
+	margin: 5px;
+	}
+	}
+
 /*display_image*/
-
-/*	#placeholder{
-		width: 100%;
-	}*/
-
-.header{
-		color:white;
-		width:50%;
-		transform: translate(-50%, -50%);
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		padding: 20px;
-		resize:both;
-		overflow: auto;
-		text-align:center;
-		line-height:50px;
+	.header{
+	color:white;
+	width:50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 20px;
+	resize:both;
+	overflow: auto;
+	text-align:center;
+	line-height:50px;
 	}
 
 	#display_image{
-		position: relative;
-		height: 500px;
-		background-image: url("../images/header_image1.jpg");
-		background-size: cover;
-		background-repeat: no-repeat;
+	position: relative;
+	height: 500px;
+	background-image: url("../images/header_image1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 	}
+
 	h1{
-		font-size:40px;
+	font-size:40px;
 	}
+
 	h2{
-		text-decoration: underline;
+	text-decoration: underline;
 	}
 
 /*moto*/
 	#moto{
-		border: 1px #0096EF solid;
-		background-color:#0096EF;
-		text-align:center;
-		color: white;
-	}
-/*profile*/
-	#profile{
-		border: 1px #E3E5DF solid;
-		text-align:center;
-		background-color:#E3E5DF;
+	border: 1px #0096EF solid;
+	background-color:#0096EF;
+	text-align:center;
+	color: white;
 	}
 
-	#h301{
-		color:#0096EF;
+/*profile*/
+	#profile{
+	border: 1px #E3E5DF solid;
+	text-align:center;
+	background-color:#E3E5DF;
+	}
+
+	#h301 {
+	color:#0096EF;
+	}
+
+	#h302 {
+	color:#0096EF;
+	}
+
+	#h303 {
+	color:#0096EF;
+	}
+
+	#h304 {
+	color:#0096EF;
+	}
+
+	#h305 {
+	color:#0096EF;
 	}
 
 	#profile_article{
-		border: 30px white solid;
-		background-color:white;
-		margin:3%;
+	border: 30px white solid;
+	background-color:white;
+	margin:3%;
+	}
+
+	label {
+  	cursor: pointer;
+	}
+
+	#menu-toggle {
+  	display: none; /* hide the checkbox */
+	}
+
+	#menu {
+  	display: none;
+	}
+
+	#menu-toggle:checked + #menu {
+  	display: block;
+	}
+
+	label {
+  	cursor: pointer;
+	}
+
+	#item-toggle {
+  	display: none; /* hide the checkbox */
+	}
+
+	#item {
+  	display: none;
+	}
+
+	#item-toggle:checked + #item {
+  	display: block;
+	}
+
+	label {
+  	cursor: pointer;
+	}
+
+	#further-toggle {
+  	display: none; /* hide the checkbox */
+	}
+
+	#further {
+  	display: none;
+	}
+
+	#further-toggle:checked + #further {
+  	display: block;
 	}
 
 /*portfolio*/
@@ -133,7 +216,6 @@ body{
 	}
 													
 	.float_center{
-	/*float: right;*/
 	background-color: white;
 	position: relative;
 	left: -50%;
@@ -145,14 +227,14 @@ body{
 	left: 50%;
 	}
 	
-	/*for sale*/
+/*for sale*/
 	#for_sale{	
 	border: 6px #E3E5DF solid;
 	text-align:center;
 	background-color:#E3E5DF;
 	}
 	
-	/*house_and_land_packages*/
+/*house_and_land_packages*/
 	#for_sale{	
 	text-align:center;
 	padding: auto
@@ -184,9 +266,7 @@ body{
 	vertical-align: top;
 	}
 
-
-
-	/*land_available*/
+/*land_available*/
 	li.landlist{
 	display: inline;
 	background-color: white;
@@ -252,13 +332,9 @@ body{
 	}
 
 	.bluelogo{
-		display: inline-block;
-		vertical-align:center;
-/*		width:80px;
-		height:50px;*/
-/*		margin-right:auto;*/
-/*		margin-top:10px;*/
-		margin-left:70px;
+	display: inline-block;
+	vertical-align:center;
+	margin-left:70px;
 	}
 
 	ul.get_in_touch li{
